@@ -6,7 +6,5 @@ build-backend = "setuptools.build_meta"
 name = "helloworld"
 dynamic = ["version"]
 
-python_requires=">=3.9"
-
 [project.scripts]
 helloworld_in_python = "helloworld.main:main"
